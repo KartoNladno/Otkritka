@@ -1,0 +1,62 @@
+body,
+html {
+    height: 100%;
+
+}
+
+body {
+    margin: 0;
+    background-image: url(../img/da.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Marck Script', cursive;
+
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: rgb(63, 8, 116);
+    ;
+
+    padding-right: 120px;
+    padding-left: 120px;
+    color: rgb(33, 212, 212);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 259px 40px 259px 40px;
+    font-size: 25px;
+    box-shadow: 5px 15px 25px 5px black;
+    animation: scale 10s;
+}
+
+.tittle {
+    margin-top: 0px;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+        border-radius: 0px 0px 0px 0px;
+        color: black;
+        background-color: rgb(250, 250, 250);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+        border-radius: 259px 40px 259px 40px;
+        color: aqua;
+        background-color: rgb(63, 8, 116);
+
+    }
+
+}
